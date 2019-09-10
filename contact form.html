@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title> contact form</title>
+</head>
+<body>
+  <form action="action_page.php">
+    please leave your first name and last name:<br>
+    <input type="text" name="name" placeholder="name"><br>
+    tel/cell:<br>
+    <input type="text" name="  tel/cell"  placeholder="tel/cell"><br/>
+    <br/>
+   city: <br/>
+    <input type="radio" name="address" value="Wien" checked> Wien <br/>
+    <input type="radio" name="address" value="Salburg"> Salburg<br/>
+    <input type="radio" name="address" value="Graz"> Graz<br/>
+    <br/>
+    Select your damage reason: <br/>
+   <select name="reason">                                      
+      <option value="button not working">button not working</option>
+      <option value="no screen" selected>no screen</option>                                
+      <option value="surface damage">surface damage</option>
+    </select>
+    <br/><br/>
+    please describe damage details <br/>
+    <textarea name="message" rows="10" cols="30">Lorem ipsum default text.
+    </textarea>
+    <br/>
+    <br/>
+    <input type="submit" value="Submit and complete">
+  </form>
+</body>
+</html>
